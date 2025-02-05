@@ -1,0 +1,5 @@
+print("Hello World")
+print("Eyal Meirom")
+print("Eyal \nMeirom")
+print("Eyal \tMeirom")
+print("12*5 =", 12*5)
