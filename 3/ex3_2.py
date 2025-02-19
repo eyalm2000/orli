@@ -1,0 +1,6 @@
+name = input("what is your name? ")
+age = input("how old are you? ")
+fav_lesson = input("what is your favorite lesson? ")
+fav_color = input("what is your favorite color? ")
+fav_day = input("what is your favorite day? ")
+print(f'your name is {name}, your age is {age}, your favorite lesson is {fav_lesson}, your favorite color is {fav_color}, and your favorite day is {fav_day}')

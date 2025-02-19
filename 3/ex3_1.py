@@ -1,0 +1,5 @@
+first_name = input("enter your first name: ")
+last_name = input("enter your last name: ")
+age = int(input("enter your age: "))
+height = float(input("enter your hieght: "))
+print(f'\n\nfirst name: {first_name+" "+last_name}\nage: {age}\nheight: {height}')
