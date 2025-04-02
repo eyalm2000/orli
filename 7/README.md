@@ -1,6 +1,7 @@
 # הוראות
 
 צרי עותק מקומי של העותק על ידי הרצת הפקודה
-git clone https://github.com/eyalm2000/orli.git
+
+`git clone https://github.com/eyalm2000/orli.git`
 
 ושני את המיקום של הריפו בסקריפט
