@@ -5,7 +5,7 @@ screen = turtle.Screen()
 screen.setup(width=1000, height=500)
 
 # orli - you dont need to download all the images manually, just clone the repo by opening a terminal and running:
-# cd cd %USERPROFILE%/Downloads
+# cd %USERPROFILE%/Downloads
 # git clone https://github.com/eyalm2000/orli.git
 # (make sure git is installed)
 # then, run
