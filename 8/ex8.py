@@ -55,6 +55,6 @@ while True:
         turtletext.color('blue')
         time.sleep(3)
         turtletext.hideturtle()
-        turtletext.goto(-200, 150)
+        turtletext.goto(-250, 150)
         turtletext.write("hi! I'm steve too! that's cool!", font=("Arial", 16))
         turtle.done()
