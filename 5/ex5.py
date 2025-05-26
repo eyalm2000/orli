@@ -1,9 +1,11 @@
 def ex_5_1_park():
     age = int(input("enter your age: "))
+    price = 0
     if age >= 12:
-        print("you can enter the park")
+        price = 100      
     else:
-        print("you can't enter the park")
+        price = 50
+    print(f'your ticket price is {price}')
 
 def ex_5_2_park():
     age = int(input("enter your age: "))
