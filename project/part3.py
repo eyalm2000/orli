@@ -36,26 +36,28 @@ def choose_shape(turtlenumber):
     turtlenumber.showturtle()
 
 def choose_winner():
+    text.clear()
     if turtle1.shapename == turtle2.shapename:
-        text.goto(0, 50)
+        text.goto(0, 100)
         text.write("It's a tie.", font=("Comic Sans MS", 36), align="center")
     elif ((turtle1.shapename == 'rock') and (turtle2.shapename == 'scissors')) or \
          ((turtle1.shapename == 'scissors') and (turtle2.shapename == 'paper')) or \
          ((turtle1.shapename == 'paper') and (turtle2.shapename == 'rock')):
-        text.goto(-200, 50)
+        text.goto(-200, 100)
         text.write(f'{turtle1.shapename} won!', font=("Comic Sans MS", 36), align="center")
     else:
-        text.goto(200, 50)
+        text.goto(200, 100)
         text.write(f'{turtle2.shapename} won!', font=("Comic Sans MS", 36), align="center")
     
-    time.sleep(2)
-    text.clear()
+    
 
 
 def button_click(x, y):
         choose_shape(turtle1)
         choose_shape(turtle2)
         choose_winner()
+
+
 
 
 replace.onclick(button_click)
